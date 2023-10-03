@@ -1,6 +1,6 @@
 # CedPalindrome
 
-ced_palindrome est ma 1ére Ruby gem - Learn Enough Ruby To Be Dangerous 
+ced_palindrome est une simple gem Ruby - Learn Enough Ruby To Be Dangerous 
 
 ## Installation
 
@@ -14,9 +14,13 @@ $ bundle install
 
 or install directly using **gem** :
 
+$ gem install ced_palindrome
+
 ## Usage
 
 ced_palindrome ajoute une méthode **palindrome?** à la class **String**
+et peut-être utilisé comme suit:
+
 $ irb
 >> require 'mhartl_palindrome'
 >> "honey badger".palindrome?
