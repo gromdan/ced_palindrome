@@ -22,7 +22,7 @@ ced_palindrome ajoute une méthode **palindrome?** à la class **String**
 et peut-être utilisé comme suit:
 
 $ irb
->> require 'mhartl_palindrome'
+>> require 'ced_palindrome'
 >> "honey badger".palindrome?
 => false
 >> "deified".palindrome?
